@@ -39,13 +39,21 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px 80px;
-    background: #E0F1ED;
+    background: rgba(225, 237, 230, 1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
-  }
+}
+
+.logo {
+  margin-left: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
 
 #navbar {
     display: flex;
@@ -59,5 +67,11 @@
     padding: 0 20px;
     position: relative;
     text-decoration: none;
-    color: black;
+    color:rgba(44, 45, 53, 1);
+    margin-right: 58px;
 }
+
+#shopping-bag {
+  margin-right: 107px;
+}
+
