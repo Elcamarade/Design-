@@ -168,3 +168,111 @@ line-height: 100%;
 letter-spacing: 0%;
 text-align: left;
 }
+
+                          /*Catalog  */
+
+
+#catalog {
+width: 1110px;
+height: 1564px;
+margin-right: 165px;
+margin-left: 165px;
+}
+
+.catalog-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.catalog-bar h2 {
+  color: rgba(44, 45, 53, 1);
+font-family: Raleway;
+font-size: 40px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+
+.catalog-bar button {
+ width: 126px;
+height: 43px;
+  display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid rgba(89, 141, 102, 1);
+  background-color:white;
+  color: rgba(44, 45, 53, 1);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 20px;
+background: rgba(212, 232, 217, 1);
+}
+.catalog-bar button:hover {
+  background-color: rgba(89, 141, 102, 1);
+  color: rgba(244, 246, 245, 1);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.catalog-bar button:active {
+  border: 1px solid rgba(89, 141, 102, 1);
+  background: rgba(212, 232, 217, 1);
+  color: rgba(89, 141, 102, 1);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.button-position {
+  margin-left: 427px;
+}
+.catalog-box-1 {
+  width: 350px;
+  height: 730px;
+  background: rgba(225, 237, 230, 1);
+}
+
+.catalog-box-1 img {
+  width: 310px;
+  height: 422px;
+  margin: 20px 20px 0px 20px;
+}
+
+.catalog-box-1 p {
+  color: rgba(134, 146, 139, 1);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 20px;
+}
+
+.catalog-box-1 h3 {
+  color: rgba(44, 45, 53, 1);
+font-family: Raleway;
+font-size: 30px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 20px;
+margin-right: 20px;
+}
