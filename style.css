@@ -276,3 +276,68 @@ text-align: left;
 margin-left: 20px;
 margin-right: 20px;
 }
+
+.catalog-box-1 span {
+  width: 200px;
+height: 19px;
+color: rgba(44, 45, 53, 1);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin: 10px 20px 30px 20px;
+}
+
+.catalog-box-1 h4 {
+  width: 102px;
+height: 23px;
+color: rgba(89, 141, 102, 1);
+font-family: Raleway;
+font-size: 30px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+margin: 30px 118px 10px 20px;
+}
+
+  .catalog-box-1 button {
+  width: 310px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px 20px 60px;
+  border: 1px solid rgba(89, 141, 102, 1);
+  margin: 20px 30px 20px 10px;
+  color: rgba(89, 141, 102, 1);
+  background-color:rgba(225, 237, 230, 1);
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  cursor: pointer;
+}
+.catalog-box-1 button:hover {
+  background-color: rgba(89, 141, 102, 1);
+  color: rgba(244, 246, 245, 1);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.catalog-box-1 button:active {
+  border: 1px solid rgba(89, 141, 102, 1);
+  background: rgba(212, 232, 217, 1);
+  color: rgba(89, 141, 102, 1);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
